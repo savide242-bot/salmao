@@ -143,9 +143,6 @@ const Index = () => {
           </div>
         </div>
         <div className="px-4 pt-3 pb-4 bg-amber-50">
-          <div className="inline-block bg-amber-100 text-amber-800 text-[10px] font-semibold px-2.5 py-0.5 rounded-full mb-1">
-            Idade recomendada: a partir de 6 a 8 meses (BLW ou amassadinho)
-          </div>
           <h1 className="text-xl font-extrabold text-foreground leading-tight mb-1">
             Salmon &amp; Sweet Potato Cakes
           </h1>
@@ -262,14 +259,9 @@ const Index = () => {
 
       {/* Servings by age */}
       <section className="px-4 py-3">
-        <div className="flex items-center justify-between mb-2">
-          <h2 className="text-sm font-bold text-foreground">
-            Serving by Age (Idade Recomendada)
-          </h2>
-          <span className="text-[10px] font-semibold text-amber-700 bg-amber-100 px-2 py-0.5 rounded-full">
-            6m to 36m+
-          </span>
-        </div>
+        <h2 className="text-sm font-bold text-foreground mb-2">
+          Serving by Age
+        </h2>
         <div className="space-y-2">
           {[
             {
