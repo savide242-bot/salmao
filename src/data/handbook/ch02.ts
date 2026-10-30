@@ -1,0 +1,345 @@
+import type { Chapter } from "./types";
+
+export const ch02: Chapter = {
+  number: 2,
+  title: "Building a Balanced Plate",
+  subtitle: "A simple visual formula for every meal",
+  image: "plate",
+  intro:
+    "Once you understand what your baby needs, the next challenge is translating that into an actual plate, three times a day, without a nutrition degree. The good news is that a balanced baby or toddler meal follows a simple, repeatable visual formula, one you can use whether you are serving oatmeal, a stir fry, or leftover pasta. This chapter breaks that formula down by age, explains why fat quality and texture matter as much as food group variety, and gives you more than twenty real, mix-and-match meal examples laid out in tables so you never have to start from scratch. We also cover weekly rotation planning, budget-friendly swaps, cultural and family-food adaptations, batch assembly strategies for busy weeks, and the most common plate-building mistakes parents make. Think of it as training wheels for feeding, until balancing a plate becomes second nature.",
+  blocks: [
+    {
+      type: "heading",
+      text: "The Core Formula: Protein, Carb, Fat, Produce",
+      sub: "One plate, four jobs",
+    },
+    {
+      type: "paragraph",
+      text: "A balanced baby or toddler meal covers four roles: a protein source for growth and tissue repair, a carbohydrate for energy, a source of healthy fat for brain development, and a fruit or vegetable for vitamins, minerals, and fiber. You do not need all four at every single snack, but aim for all four across each main meal. This is the same logic used by pediatric dietitians when they build sample menus, and it scales up seamlessly into adult healthy-eating patterns, so the habits you build now do not need to be relearned later.",
+    },
+    {
+      type: "paragraph",
+      text: "For example, oatmeal (carb) cooked in whole milk (fat and protein) with mashed banana (produce) covers three of the four roles in one bowl. Add a spoon of nut butter and you have covered all four. The formula works because it removes decision fatigue: instead of wondering 'is this a good meal,' you simply check the boxes. Over time this becomes automatic, the same way an experienced cook does not measure salt but simply knows the right amount by feel.",
+    },
+    {
+      type: "table",
+      title: "Plate Proportions by Age",
+      headers: ["Age", "Protein", "Carbohydrate", "Fruit/Vegetable", "Fat source"],
+      rows: [
+        ["6-8 months", "1-2 tbsp mashed/pureed", "1-2 tbsp soft grain", "1-2 tbsp puree", "Built into milk feeds"],
+        ["9-11 months", "2-4 tbsp, soft pieces", "2-4 tbsp", "2-4 tbsp, soft pieces", "1 tsp oil, butter, or nut butter"],
+        ["12-18 months", "1/4 cup", "1/4 cup", "1/4 cup", "1-2 tsp added fat"],
+        ["18-24 months", "1/4 to 1/2 cup", "1/4 to 1/2 cup", "1/4 to 1/2 cup", "1-2 tsp added fat"],
+      ],
+    },
+    {
+      type: "callout",
+      kind: "tip",
+      title: "Use your own hand as a measuring cup",
+      body: "A toddler's protein portion is roughly the size of their own palm, and a carbohydrate or produce portion is roughly a cupped handful. This scales automatically as your child grows, so you never need to weigh food or consult a chart mid-meal.",
+    },
+    {
+      type: "heading",
+      text: "Fat Quality: Not All Fats Are Equal",
+      sub: "Choosing fats that actually support development",
+    },
+    {
+      type: "paragraph",
+      text: "Because 30 to 40 percent of a toddler's calories should come from fat, the type of fat matters as much as the amount. Omega-3 fatty acids, especially DHA, support brain and eye development and are found in fatty fish (salmon, sardines, mackerel), egg yolks from DHA-enriched hens, and in smaller amounts in walnuts and flax. Monounsaturated fats from olive oil, avocado, and nut butters support steady energy and are easy to add to almost any dish with a spoon or drizzle.",
+    },
+    {
+      type: "paragraph",
+      text: "Saturated fat from whole dairy is not something to fear at this age; whole milk, whole-milk yogurt, and cheese are standard, recommended parts of a toddler diet before age 2. What is worth limiting even early on is highly processed fat from fried snack foods and packaged pastries, less because of long-term heart disease risk (which is not the relevant concern at this age) and more because these foods tend to crowd out more nutrient-dense options on a very small plate.",
+    },
+    {
+      type: "table",
+      title: "Fat Sources Worth Prioritizing",
+      headers: ["Fat source", "Key nutrient", "Easy way to add it", "Typical serving"],
+      rows: [
+        ["Salmon or sardines", "DHA omega-3", "Flaked into rice or pasta", "1-2 oz, 1-2x/week"],
+        ["Avocado", "Monounsaturated fat", "Mashed or diced onto any plate", "2-3 tbsp"],
+        ["Olive oil", "Monounsaturated fat", "Drizzled over vegetables or grains", "1 tsp"],
+        ["Full-fat yogurt", "Fat + protein + calcium", "Plain, with fruit mixed in", "1/4 to 1/2 cup"],
+        ["Nut or seed butter", "Fat + protein", "Thinned with water, spread thin", "1-2 tsp"],
+      ],
+    },
+    {
+      type: "callout",
+      kind: "warning",
+      title: "Thin nut butter to avoid a choking hazard",
+      body: "A thick spoonful of peanut or almond butter is sticky enough to be a genuine choking risk for babies and toddlers. Always thin it with warm water, breast milk, or yogurt until it drips off a spoon, and spread it thinly on toast rather than offering it by the spoonful straight from the jar.",
+    },
+    {
+      type: "heading",
+      text: "Texture Pairing: Matching Food to Skill Level",
+      sub: "Texture is a skill, not just a preference",
+    },
+    {
+      type: "paragraph",
+      text: "Texture progression follows a fairly predictable arc: smooth purees around 6 months, thicker mashed and lumpy textures by 7 to 8 months, soft finger foods by 8 to 9 months, and small diced pieces of nearly any table food by 12 months. Pairing a new, harder texture with a familiar flavor (for example, offering diced ripe pear, a fruit already known in puree form, in its whole diced form) reduces resistance compared to introducing a brand-new flavor and a brand-new texture at the same time.",
+    },
+    {
+      type: "paragraph",
+      text: "A useful rule of thumb is the squish test: if a piece of food can be mashed easily between your thumb and forefinger, it is generally soft enough for a baby with no teeth or just a few teeth to manage with their gums. Foods that do not pass this test, like raw carrot or apple, need to be cooked until soft, grated finely, or held back until molars appear, typically between 12 and 18 months.",
+    },
+    {
+      type: "table",
+      title: "Texture Progression by Age",
+      headers: ["Age", "Typical texture", "Example", "Skill being built"],
+      rows: [
+        ["6 months", "Smooth puree, thin", "Pureed sweet potato", "Tongue-to-palate swallowing"],
+        ["7-8 months", "Thicker, lumpy puree", "Mashed lentils with visible pieces", "Managing texture variation"],
+        ["9-10 months", "Soft finger foods, pea-sized", "Diced soft pear, shredded chicken", "Pincer grasp, chewing"],
+        ["12+ months", "Diced table food", "Diced pasta, soft roasted vegetables", "Full self-feeding with utensils"],
+      ],
+    },
+    {
+      type: "callout",
+      kind: "warning",
+      title: "Choking hazards to avoid at every stage",
+      body: "Whole grapes, whole nuts, popcorn, hard raw vegetables, chunks of hot dog or sausage, and thick spoonfuls of peanut butter are common choking hazards well past infancy, into the toddler and even preschool years. Always cut round foods lengthwise into quarters, cook vegetables until soft, and thin sticky foods like nut butter with water or milk.",
+    },
+    {
+      type: "heading",
+      text: "6 to 8 Months: Simple Layers, Not Perfect Balance",
+      sub: "Every food does not need every nutrient",
+    },
+    {
+      type: "paragraph",
+      text: "At this age, do not stress about balancing every single spoonful. A meal of just iron-fortified cereal, or just pureed sweet potato, is perfectly fine, since milk is still covering the bulk of nutrition. The goal here is exposure and skill-building: introducing single ingredients first for a few days each to watch for reactions, then simple two- or three-ingredient combinations once single foods are well tolerated.",
+    },
+    {
+      type: "table",
+      title: "Sample First-Stage Meals (6-8 months)",
+      headers: ["Meal", "Base", "Protein/iron add-in", "Notes"],
+      rows: [
+        ["Breakfast", "Iron-fortified oat cereal", "Mixed with breast milk or formula", "Thin consistency at first"],
+        ["Lunch", "Pureed lentils", "Swirl of plain whole-milk yogurt", "Introduce yogurt separately first"],
+        ["Snack", "Mashed avocado", "Few flakes of soft cooked salmon", "Watch for fish allergy signs"],
+        ["Dinner", "Pureed sweet potato", "Pinch of cinnamon, no added sugar", "Naturally sweet, well accepted"],
+        ["Extra", "Mashed banana", "Smooth peanut butter, thinned well", "Follow allergen introduction guidance"],
+      ],
+    },
+    {
+      type: "callout",
+      kind: "note",
+      title: "Introduce allergens early and often, not later",
+      body: "Current AAP and NHS guidance recommends introducing common allergens, including peanut, egg, and dairy, around 6 months rather than delaying them, since early and repeated exposure is now associated with lower rates of food allergy. Introduce one new allergen at a time, in the morning, so you can monitor for a reaction throughout the day.",
+    },
+    {
+      type: "heading",
+      text: "9 to 11 Months: Introducing the Full Plate",
+      sub: "Practicing self-feeding with real textures",
+    },
+    {
+      type: "paragraph",
+      text: "By 9 months most babies can manage soft finger foods and are ready to see a genuine mini plate with distinct sections. This is a great time to practice the pincer grasp with foods like soft-cooked peas, small pasta shapes, or diced ripe pear, alongside a protein and a starch. Offering the same four-part structure at every meal, even with different ingredients, builds a predictable and calming mealtime rhythm for both of you.",
+    },
+    {
+      type: "table",
+      title: "Sample Second-Stage Meals (9-11 months)",
+      headers: ["Meal", "Protein", "Carb", "Produce", "Fat"],
+      rows: [
+        ["Breakfast", "Soft-cooked scrambled egg", "Diced toast strips", "Mashed peas", "Butter in the egg"],
+        ["Lunch", "Shredded turkey", "Mashed potato", "Steamed carrot coins", "Butter stirred in"],
+        ["Dinner", "Small cheese cubes", "Whole wheat pasta shells", "Roasted zucchini", "Olive oil on zucchini"],
+        ["Lunch (alt)", "Flaked salmon", "Soft rice", "Steamed broccoli florets", "Built into salmon"],
+        ["Dinner (alt)", "Black beans", "Soft corn tortilla pieces", "Diced avocado", "Avocado itself"],
+      ],
+    },
+    {
+      type: "callout",
+      kind: "myth",
+      title: "Myth: babies need separate baby food, not family meals",
+      body: "Most family meals can be adapted for babies over 9 months simply by cutting portions smaller, softening textures, and holding back added salt until the food is portioned out. Cooking one meal for the whole family, then adjusting your baby's portion, saves enormous time and builds shared eating habits early, which research links to better long-term acceptance of family foods.",
+    },
+    {
+      type: "heading",
+      text: "12 to 24 Months: The Toddler Plate in Full",
+      sub: "Consistency over perfection",
+    },
+    {
+      type: "paragraph",
+      text: "After 12 months, toddlers can generally eat what the family eats, adjusted for size and salt. This is also the age when appetite becomes noticeably less predictable, some days everything is eaten and other days almost nothing, which is developmentally normal and related to slowing growth rate compared to infancy. Rather than chasing a perfectly balanced plate at every single meal, aim for balance across the whole day or even the whole week.",
+    },
+    {
+      type: "table",
+      title: "Sample Full Day of Balanced Eating, 12-24 Months",
+      headers: ["Meal", "Protein", "Carb", "Produce", "Fat"],
+      rows: [
+        ["Breakfast", "Scrambled egg", "Whole wheat toast", "Sliced strawberries", "Butter on toast"],
+        ["Snack", "Cottage cheese", "Whole grain crackers", "Diced cucumber", "Cheese fat"],
+        ["Lunch", "Diced chicken", "Brown rice", "Steamed broccoli", "Olive oil drizzle"],
+        ["Snack", "Plain yogurt", "-", "Diced mango", "Yogurt fat"],
+        ["Dinner", "Lentil stew", "Soft bread", "Diced carrots", "Coconut milk in stew"],
+      ],
+    },
+    {
+      type: "table",
+      title: "Twelve More Toddler Meal Ideas by Cuisine",
+      headers: ["Cuisine style", "Protein + carb + produce combination", "Fat add-in"],
+      rows: [
+        ["Mexican-inspired", "Black beans, soft rice, diced tomato and avocado", "Avocado itself"],
+        ["Italian-inspired", "Ground turkey bolognese over soft pasta with zucchini", "Olive oil, parmesan"],
+        ["Indian-inspired", "Mild dal, soft rice, steamed spinach", "Ghee stirred in"],
+        ["Japanese-inspired", "Flaked salmon, soft rice, steamed edamame (mashed)", "Sesame oil, small amount"],
+        ["Mediterranean", "Hummus, soft pita pieces, diced cucumber and tomato", "Olive oil in hummus"],
+        ["Classic comfort", "Shredded rotisserie chicken, mashed sweet potato, peas", "Butter in sweet potato"],
+        ["Breakfast-for-dinner", "Scrambled eggs, soft toast, sauteed spinach", "Butter for eggs"],
+        ["Soup night", "Shredded chicken and vegetable soup with soft noodles", "Olive oil drizzle"],
+        ["Taco-style", "Seasoned ground beef, soft tortilla, diced pepper and corn", "Cheese, sour cream"],
+        ["Stir-fry style", "Diced tofu, soft rice noodles, steamed broccoli and carrot", "Sesame oil, small amount"],
+        ["Breakfast bowl", "Greek yogurt, soft granola pieces, diced banana", "Yogurt fat, nut butter swirl"],
+        ["Simple sandwich", "Mashed egg salad, soft bread, cucumber sticks", "Mayonnaise or yogurt-based dressing"],
+      ],
+    },
+    {
+      type: "quote",
+      text: "Your job is to offer a variety of nutritious foods on a regular schedule. Your child's job is to decide whether and how much to eat.",
+      author: "Ellyn Satter, feeding relationship expert",
+    },
+    {
+      type: "callout",
+      kind: "note",
+      title: "Division of responsibility",
+      body: "This principle, developed by dietitian Ellyn Satter, is one of the most trusted frameworks in pediatric feeding. Parents choose what, when, and where food is offered; the child decides how much and whether to eat it. This reduces mealtime battles significantly once truly practiced, often within a few weeks of consistent application.",
+    },
+    {
+      type: "heading",
+      text: "Weekly Rotation Strategy",
+      sub: "Planning without a new menu every single day",
+    },
+    {
+      type: "paragraph",
+      text: "You do not need 21 unique meals per week. A practical, sustainable approach is to plan around 5 to 7 core proteins and 5 to 7 core carbohydrate bases, then rotate produce and sauces to create variety without reinventing the wheel daily. For example, a week might rotate chicken, ground beef, lentils, salmon, eggs, tofu, and beans as proteins, paired with rice, pasta, potatoes, quinoa, and bread as carb bases, with whatever vegetables are in season or on sale filling the produce slot.",
+    },
+    {
+      type: "paragraph",
+      text: "Repetition is not a failure of creativity; toddlers generally prefer familiar foods and often need many exposures before accepting something new. A rotation that repeats 2 to 3 times over a month, with one or two new foods introduced alongside familiar ones each week, balances the competing needs of variety (for nutrition and long-term palate development) and predictability (for reducing mealtime stress).",
+    },
+    {
+      type: "list",
+      title: "Sample weekly protein rotation",
+      items: [
+        "Monday: scrambled eggs or egg-based dish",
+        "Tuesday: shredded chicken or turkey",
+        "Wednesday: lentils or beans",
+        "Thursday: ground beef or turkey",
+        "Friday: flaked fish (salmon, cod, or sardines)",
+        "Saturday: tofu or a second beans-based meal",
+        "Sunday: leftovers remixed into a new shape (soup, wrap, or bowl)",
+      ],
+    },
+    {
+      type: "heading",
+      text: "Budget-Friendly Swaps",
+      sub: "Balanced does not mean expensive",
+    },
+    {
+      type: "paragraph",
+      text: "Many of the most nutrient-dense first foods are also among the cheapest per serving. Canned beans and lentils cost a fraction of fresh meat per gram of protein and iron delivered, and frozen fruits and vegetables retain nearly identical vitamin content to fresh, since they are typically frozen within hours of harvest, while often costing 30 to 50 percent less. Eggs remain one of the most affordable complete-protein foods available and can be prepared a dozen different ways to avoid monotony.",
+    },
+    {
+      type: "table",
+      title: "Budget Swaps Without Losing Nutrition",
+      headers: ["Higher-cost option", "Budget swap", "Nutrition impact"],
+      rows: [
+        ["Fresh salmon fillet", "Canned salmon or sardines (boneless, low sodium)", "Similar omega-3 and protein content"],
+        ["Fresh berries", "Frozen berries, thawed or cooked soft", "Comparable vitamin and fiber content"],
+        ["Pre-made pureed pouches", "Home-mashed banana, avocado, or cooked sweet potato", "Lower cost, no added thickeners"],
+        ["Specialty toddler snack bars", "Whole grain toast with thinned nut butter", "More protein and fat, less added sugar"],
+        ["Out-of-season fresh vegetables", "Frozen peas, corn, spinach, carrots", "Equal or better nutrient retention"],
+      ],
+    },
+    {
+      type: "heading",
+      text: "Cultural and Family-Food Adaptations",
+      sub: "The plate formula works with any cuisine",
+    },
+    {
+      type: "paragraph",
+      text: "The four-part plate formula is cuisine-agnostic; it describes a function, not a specific list of ingredients, so it adapts naturally to whatever your family already cooks and eats. A South Asian household might build the plate from dal (protein), rice (carb), sauteed spinach (produce), and ghee (fat); a Mexican household from black beans, corn tortilla, diced tomato and avocado, and a drizzle of olive oil or a little cheese; an East Asian household from tofu or fish, rice, steamed greens, and sesame oil.",
+    },
+    {
+      type: "paragraph",
+      text: "Spices and mild seasoning (cumin, turmeric, garlic, ginger, mild curry powder, herbs) are generally fine for babies past 6 months in modest amounts and can make family-style meals easier to adapt, since you are not cooking a separate bland version. The main modification needed for shared family meals is usually reducing added salt in the baby's portion (portion it out before salting the family batch) and adjusting texture and piece size to your baby's current stage, not stripping away cultural flavor entirely.",
+    },
+    {
+      type: "callout",
+      kind: "tip",
+      title: "Portion before you season",
+      body: "A simple habit that works for almost any cuisine: cook the family meal, portion out your baby's or toddler's serving into a separate bowl before adding salt, hot spice, or high-sodium sauces to the rest of the pot, then finish seasoning for the adults. This lets everyone eat the same base meal with minimal extra cooking.",
+    },
+    {
+      type: "heading",
+      text: "Batch Assembly for Busy Weeks",
+      sub: "Cook once, assemble many times",
+    },
+    {
+      type: "paragraph",
+      text: "Batch cooking works especially well with the four-part formula because each component can be cooked once in a larger quantity and then mixed and matched across the week. A useful approach: on a weekend, cook one large batch of a protein (shredded chicken, a pot of lentils, or hard-boiled eggs), one large batch of a carbohydrate (a big pot of rice, quinoa, or roasted potatoes), and roast or steam two to three vegetables. Store each component separately in the fridge for 3 to 4 days, or freeze in ice cube trays or small containers for up to 2 to 3 months.",
+    },
+    {
+      type: "paragraph",
+      text: "At mealtime, assembly takes under five minutes: warm a scoop of protein, a scoop of carb, and a scoop of produce, add a fresh fat (avocado, olive oil, or yogurt does not freeze or reheat as well, so add these last and fresh), and the plate is done. This approach removes the daily decision fatigue of 'what should I cook' and replaces it with a much smaller decision of 'which combination today,' which is far less taxing on a tired weeknight.",
+    },
+    {
+      type: "list",
+      title: "Batch components that freeze well",
+      items: [
+        "Cooked, shredded chicken or turkey in small freezer bags",
+        "Cooked lentils or beans in ice cube trays, then bagged",
+        "Cooked rice or quinoa, cooled fully before freezing",
+        "Roasted or steamed vegetables, slightly undercooked so reheating does not turn them mushy",
+        "Meatballs or veggie patties, baked and frozen individually on a tray first",
+      ],
+    },
+    {
+      type: "heading",
+      text: "Common Plate-Building Mistakes",
+      sub: "What derails an otherwise good effort",
+    },
+    {
+      type: "paragraph",
+      text: "The most common mistake is an overly beige plate: a meal of pasta, bread, or crackers with no visible protein or produce, which happens easily because starches are the foods toddlers most reliably accept. The fix is not to force more vegetables through pressure, but to build the habit of always plating a protein and a produce item alongside the starch, even in small amounts, so the option is present regardless of whether it is eaten that day.",
+    },
+    {
+      type: "paragraph",
+      text: "A second common mistake is over-restricting fat out of adult diet habits, serving skim dairy, trimmed meat, or fat-free yogurt to a toddler under 2, which can genuinely shortchange calorie and brain-development needs. A third mistake is treating a single meal as a pass or fail event rather than looking at intake across the day or week; a toddler who eats poorly at dinner but ate well at breakfast and lunch has likely still met their needs for the day.",
+    },
+    {
+      type: "callout",
+      kind: "warning",
+      title: "Do not use dessert or screens as a reward for eating vegetables",
+      body: "Using dessert as a reward for eating vegetables, or turning on a screen to get through a meal, both tend to backfire over time: they can increase resistance to the 'less desirable' food and shift a child's focus away from their own hunger and fullness cues. Serve dessert on the same footing as other foods, without it functioning as a bribe.",
+    },
+    {
+      type: "callout",
+      kind: "tip",
+      title: "Keep a running list of accepted foods",
+      body: "Write down every food your toddler has ever accepted, even once, on a sticky note on the fridge. On low-appetite or high-fatigue days, pull three items from that list rather than improvising, which removes decision fatigue exactly when you have the least energy for it.",
+    },
+    {
+      type: "keyfacts",
+      items: [
+        { label: "Protein portion, 12-24 months", value: "1/4 to 1/2 cup" },
+        { label: "Recommended plate structure", value: "4 food groups per main meal" },
+        { label: "Meals plus snacks per day", value: "3 meals + 2-3 snacks" },
+        { label: "Added salt guidance", value: "Avoid before 12 months" },
+        { label: "Best balance window", value: "Across the day or week, not per meal" },
+        { label: "Batch-frozen protein shelf life", value: "2-3 months" },
+        { label: "Typical exposures needed for new food acceptance", value: "10-15 tries" },
+      ],
+    },
+  ],
+  takeaways: [
+    "Every balanced plate covers four roles: protein, carbohydrate, fat, and fruit or vegetable.",
+    "Fat quality matters: prioritize omega-3s, monounsaturated fats, and whole dairy over highly processed fats.",
+    "Match texture to skill level using the squish test, progressing from puree to lumpy to finger foods to diced table food.",
+    "Before 9 months, exposure matters more than perfect balance in a single meal.",
+    "After 9 months, adapt family meals and cuisines instead of cooking a separate bland baby food whenever possible.",
+    "Balance the day or the week, not every single meal, especially for unpredictable toddler appetites.",
+    "Batch-cook proteins, carbs, and vegetables separately, then assemble fresh at mealtime to save daily effort.",
+    "Use the division of responsibility: you choose what, when, and where; your child chooses how much.",
+  ],
+};
